@@ -1,0 +1,15 @@
+<section class="w-3/5 mx-auto bg-yellow-200 shadow-2xl rounded px-10 px-20">
+  <h1 class="text-7xl">Registro de Aplicaciones</h1>
+  <label class="text-lg">codigo de aplicacion</label>
+  <div>
+    <input type="text"  name="codigoApp" [(ngModel)]="codigoApp">
+  </div>
+
+  <label class="text-lg">nombre de aplicacion</label>
+  <div>
+    <input type="text"  name="nombreApp" [(ngModel)]="nombreApp">
+  </div>
+
+  <button  (click)="registrar()">Registrar</button>
+</section>
+
